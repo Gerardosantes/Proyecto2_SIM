@@ -15,9 +15,9 @@ public class Proyecto_sim {
 
           int opcion;
         double saldo = 0;
-        double deposito;
+        double deposito;   
         double retiro;
-        int folio;
+        int folio;       //estos son los nombres que le di a las variables
 
         
     }
