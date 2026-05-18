@@ -29,4 +29,24 @@ public class Proyecto_sim {
             System.out.print("Selecciona una opcion: ");
 
             opcion = leer.nextInt();
+            
+            switch (opcion) {
+
+                case 1:
+
+                    System.out.println("Tu saldo es: $" + saldo);
+                    break;
+
+                case 2:
+
+                    System.out.print("Cantidad a depositar: $");
+                    deposito = leer.nextDouble();
+
+                    saldo = saldo + deposito;
+
+                    folio = random.nextInt(9000) + 1000;
+
+                    System.out.println("Deposito realizado correctamente");
+                    System.out.println("Folio: " + folio);
+                    break;
         }
