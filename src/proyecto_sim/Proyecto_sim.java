@@ -49,4 +49,28 @@ public class Proyecto_sim {
                     System.out.println("Deposito realizado correctamente");
                     System.out.println("Folio: " + folio);
                     break;
-        }
+                    
+                case 3:
+
+                    System.out.print("Cantidad a retirar: $");
+                    retiro = leer.nextDouble();
+
+                    if (retiro <= saldo) {
+
+                        saldo = saldo - retiro;
+
+                        folio = random.nextInt(9000) + 1000;
+
+                        System.out.println("Retiro exitoso");
+                        System.out.println("Folio: " + folio);
+
+                    } else {
+
+                        System.out.println("Saldo insuficiente");
+
+                    }
+
+                    break;
+                    
+         
+        
