@@ -72,5 +72,17 @@ public class Proyecto_sim {
 
                     break;
                     
-         
+         case 4:
+                    System.out.println("Gracias por usar el cajero.");
+                    break;
+
+                default:
+                    System.out.println("Opcion no valida.");
+            }
+
+        } while (opcion != 4);
+
+        leer.close();
+    }
+}
         
